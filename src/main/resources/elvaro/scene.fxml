@@ -2,10 +2,20 @@
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
 
 
+<!--<?import java.awt.Insets?>-->
+<!--<?import javafx.scene.layout.GridPane?>-->
+<!--<GridPane fx:controller="elvaro.FXMLController" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">-->
+   <!--<padding>-->
+      <!--&lt;!&ndash;<Insets top="25" right="25" bottom="10" left="25"/>&ndash;&gt;-->
+   <!--</padding>-->
+
+<!--</GridPane>-->
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elvaro.FXMLController">
    <children>
       <Label fx:id="label" text="Label" />
+      <Button fx:id="button" text="Click" onAction="#buttonClick" />
    </children>
 </StackPane>
